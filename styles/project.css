@@ -60,6 +60,11 @@ footer {
     justify-content: right;
 }
 
+#heroNoFinded, #villainNoFinded {
+    display: flex;
+    margin-right: 20px;
+}
+
 #comparation {
     display: grid;
     grid-template-columns: 3fr 0.5fr 3fr;
