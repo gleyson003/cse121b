@@ -1,5 +1,5 @@
 // Titles at page
-document.getElementById("titlePage").innerHTML = "Heroes Vx Villains";
+document.getElementById("titlePage").innerHTML = "Heroes Vs Villains";
 document.getElementById("heroesTitleList").innerHTML = "Heroes List";
 document.getElementById("villainsTitleList").innerHTML = "Villains List";
 
