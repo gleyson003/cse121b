@@ -88,7 +88,7 @@ const getVillains = async () => {
   }
 };
 
-// Remove functions
+// Resets functions
 function resetHeroes() {
   heroUl.innerHTML = "";
 }
