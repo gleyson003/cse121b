@@ -49,7 +49,8 @@ const villainsList = (villains) => {
 
 // Using fetch to get the api
 const getHeros = async () => {
-  const url = "https://superhero-search.p.rapidapi.com/api/heroes";
+  const url = "https://cors-anywhere.herokuapp.com/https://superhero-search.p.rapidapi.com/api/heroes"; // Added cors-anywhere proxy URL
+  //const url = "https://superhero-search.p.rapidapi.com/api/heroes";
   const options = {
     method: "GET",
     headers: {
@@ -69,7 +70,8 @@ const getHeros = async () => {
 };
 
 const getVillains = async () => {
-  const url = "https://superhero-search.p.rapidapi.com/api/villains";
+  const url = "https://cors-anywhere.herokuapp.com/https://superhero-search.p.rapidapi.com/api/villains"; // Added cors-anywhere proxy URL
+  //const url = "https://superhero-search.p.rapidapi.com/api/villains";
   const options = {
     method: "GET",
     headers: {
